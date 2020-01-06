@@ -1,0 +1,49 @@
+[INFO] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.example.talendtestcase.job:Copydata >---------------
+[INFO] Building TALENDTESTCASE Copydata-0.1.0 (0.1,Job Designs) 0.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- builder-maven-plugin:7.2.1:generate (default) @ Copydata ---
+[INFO] Skipping ci-builder
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ Copydata ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ Copydata ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Talendlocal\Talend-Studio-20190620_1446-V7.2.1\workspace\TALENDTESTCASE\poms\jobs\process\copydata_0.1\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ Copydata ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ Copydata ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Talendlocal\Talend-Studio-20190620_1446-V7.2.1\workspace\TALENDTESTCASE\poms\jobs\process\copydata_0.1\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ Copydata ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running talendtestcase.copydata_0_1.copytest_0_1.copyTestTest
+log4j:WARN No appenders could be found for logger (talendtestcase.copydata_0_1.copytest_0_1.copyTestTest).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[job copyTest] Files are identical
+[job copyTest] Files are identical
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.18 s - in talendtestcase.copydata_0_1.copytest_0_1.copyTestTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.116 s
+[INFO] Finished at: 2019-12-19T19:23:51+05:30
+[INFO] ------------------------------------------------------------------------
